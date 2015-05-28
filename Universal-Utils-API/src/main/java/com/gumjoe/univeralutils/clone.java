@@ -63,6 +63,10 @@ public class clone
 {
     public static void clone(String url, File target) throws GitAPIException
 {
+     System.out.println("                                           ");
+     System.out.println("Starting clone (download) of git repo @ " + url);
      Git.cloneRepository().setURI( url ).setDirectory( target ).call();
+     System.out.println("Successfully cloned (downloaded) git repo @ " + url + " to " + target);
+     System.out.println("                                                                      ");
     }
 }

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.gumjoe</groupId>
+  <artifactId>Universal-Utils-API</artifactId>
+  <version>0.1-ALPHA-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20150528.162135</timestamp>
+      <buildNumber>6</buildNumber>
+    </snapshot>
+    <lastUpdated>20150528162135</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.1-ALPHA-20150528.162135-6</value>
+        <updated>20150528162135</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1-ALPHA-20150528.162135-6</value>
+        <updated>20150528162135</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

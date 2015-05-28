@@ -34,8 +34,8 @@
           <includes>
             <include>**/*</include>
           </includes>
-          <repositoryName>Universal-Utils</repositoryName>
-          <repositoryOwner>Gum-Joe</repositoryOwner>
+          <name>Universal-Utils</name>
+          <owner>Gum-Joe</owner>
         </configuration>
       </plugin>
       <plugin>
