@@ -62,11 +62,12 @@ import com.gumjoe.universalutils.*;
 
 public class get
 {
-    public static void get( Sting URL, String urltarget  ) throws Exception
+    public static void get( String url, String urltarget  ) throws Exception
     {
-        System.out.println("Starting download of " + URL + " to " + urltarget);
+        System.out.println("Starting download of " + url + " to " + urltarget);
         File targeturl = new File(urltarget);
-        FileUtils.copyURLToFile(URL, targeturl);
-        System.out.println("Succesffuly downloaded " + URL + " and saved it to " + urltarget);
+        URL downURL = new URL(url);
+        FileUtils.copyURLToFile(downURL, targeturl);
+        System.out.println("Succesffuly downloaded " + url + " and saved it to " + urltarget);
     }
 }

@@ -1,6 +1,7 @@
-com\gumjoe\universalutils\universalutils.class
 com\gumjoe\universalutils\patch.class
 com\gumjoe\universalutils\cloneBranch.class
 com\gumjoe\universalutils\utilsVersion.class
+com\gumjoe\universalutils\universalutils.class
 com\gumjoe\universalutils\run.class
 com\gumjoe\universalutils\clone.class
+com\gumjoe\universalutils\get.class
