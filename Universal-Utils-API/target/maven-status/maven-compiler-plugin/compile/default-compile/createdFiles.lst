@@ -1,7 +1,7 @@
-com\gumjoe\universalutils\patch.class
-com\gumjoe\universalutils\cloneBranch.class
-com\gumjoe\universalutils\utilsVersion.class
-com\gumjoe\universalutils\universalutils.class
-com\gumjoe\universalutils\run.class
-com\gumjoe\universalutils\clone.class
-com\gumjoe\universalutils\get.class
+org\veryimportantprogramming\universalutils\get.class
+org\veryimportantprogramming\universalutils\patch.class
+org\veryimportantprogramming\universalutils\run.class
+org\veryimportantprogramming\universalutils\utilsVersion.class
+org\veryimportantprogramming\universalutils\universalutils.class
+org\veryimportantprogramming\universalutils\cloneBranch.class
+org\veryimportantprogramming\universalutils\clone.class
