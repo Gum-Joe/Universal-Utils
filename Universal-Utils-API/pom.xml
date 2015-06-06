@@ -13,7 +13,7 @@
 
     
 <parent>
-        <groupId>com.gumjoe</groupId>
+        <groupId>org.vip</groupId>
         <artifactId>Universal-Utils-Parent</artifactId>
         <version>0.1-ALPHA-SNAPSHOT</version>
      </parent>
