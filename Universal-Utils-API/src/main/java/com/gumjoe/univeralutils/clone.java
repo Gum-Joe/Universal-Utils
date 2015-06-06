@@ -71,7 +71,15 @@ public class clone
     }
     public static void cloneTest(String url, File target) throws GitAPIException
 {
-     Git.cloneRepository().setURI( url ).setDirectory( target ).call();
-     System.out.println("Successfully cloned (downloaded) git repo @ " + url + " to " + target);
+     clone(url, target);
+     if(target.exists()){
+         System.out.println("Successfully cloned (downloaded) git repo @ " + url + " to " + target);
+     }
+     
+    }
+    public static void cloneTester(String url, File target) throws GitAPIException
+{
+     return cloneTest(url, target);
+     
     }
 }
