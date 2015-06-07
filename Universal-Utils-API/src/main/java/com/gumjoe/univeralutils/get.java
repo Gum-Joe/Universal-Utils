@@ -62,12 +62,11 @@ import org.veryimportantprogramming.universalutils.*;
 
 public class get
 {
-    public static void get( String url, String urltarget  ) throws Exception
+    public static void get( String url, File urltarget  ) throws Exception
     {
-        System.out.println("Starting download of " + url + " to " + urltarget);
-        File targeturl = new File(urltarget);
+        System.out.println("[INFO}  Downloading " + url + " and saving to " + urltarget);
         URL downURL = new URL(url);
-        FileUtils.copyURLToFile(downURL, targeturl);
-        System.out.println("Succesffuly downloaded " + url + " and saved it to " + urltarget);
+        FileUtils.copyURLToFile(downURL, urltarget);
+        System.out.println("[INFO]  Downloaded " + url + " and saved it to " + urltarget);
     }
 }
